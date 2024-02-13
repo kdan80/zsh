@@ -12,12 +12,8 @@ function precmd() {
     fi
 }
 
-
-# PATH
-export PATH="$HOME/.local/share/bin:$PATH:$HOME/.config/composer/vendor/bin"
-
 # Aliases
-alias reload='source ~/.zshrc'
+alias reload='source $HOME/.config/zsh/zshrc'
 alias diff='diff --color=auto'
 alias ip='ip --color=auto'
 alias ls='ls -CF --color=auto'
