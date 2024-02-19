@@ -13,7 +13,7 @@ function precmd() {
 }
 
 # Aliases
-alias reload='source $HOME/.config/zsh/zshrc'
+alias reload='source $HOME/.config/zsh/.zshrc'
 alias diff='diff --color=auto'
 alias ip='ip --color=auto'
 alias ls='ls -CF --color=auto'
@@ -26,6 +26,7 @@ alias egrep='egrep --color=auto'
 
 # Plugins
 source "$HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "$HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # Autocomplete
 autoload -U compinit; compinit
